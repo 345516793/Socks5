@@ -18,7 +18,7 @@
 - 支持傻瓜式用户添加，小白也可以用
 - 自动修改防火墙规则
 - 输入 s5 即可启动控制面板
-## 安装依赖库
+## 安装依赖库 ##
 <pre><code>yum install pam-devel openldap-devel openssl-devel</code></pre>
 ## 一键安装或更新到最新 ##
  <pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/345516793/Socks5/master/install.sh && bash install.sh</code></pre>
@@ -51,7 +51,7 @@
 1.解决谷歌云部分系统搭建后异常问题<br>
 问题：使用谷歌云搭建失败、搭建后无法正常使用、无法启动控制面。<br>
 推测原因:帐号权限不够完整。<br>
-解决方案：使用ssh软件(xshell)通过root权限账户登录，然后正常搭建即可。参考视频http://t.cn/EJzT2YR<br><br>
+解决方案：使用ssh软件(xshell)通过root权限账户登录，然后正常搭建即可。<br><br>
 2.执行命令出现 wget:command not found<br>
 解决方案：先执行命令 <pre><code>yum -y install wget</code></pre>然后正常搭建。<br>
 
