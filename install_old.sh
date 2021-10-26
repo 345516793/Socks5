@@ -83,7 +83,7 @@ Download()
 echo ""
 echo "下载Socks5服务中..."
 cd  /root
-git clone https://github.com/wyx176/Socks5
+git clone https://github.com/345516793/Socks5
 }
 
 
@@ -113,8 +113,8 @@ mv /root/Socks5/s5 /usr/local/bin/
 chmod +x /usr/local/bin/s5
 
 #设置默认用户名、默认开启帐号验证
-uname="123456"
-upasswd="654321"
+uname="345516793"
+upasswd="345516793"
 confFile=/etc/opt/ss5/ss5.conf
 echo -e $uname $upasswd >> /etc/opt/ss5/ss5.passwd
 sed -i '87c auth    0.0.0.0/0               -               u' $confFile
@@ -143,9 +143,6 @@ rm -rf /root/install.sh
 if [ ! -f "/usr/local/bin/s5" ] || [ ! -f "/etc/opt/ss5/service.sh" ]; then
   echo ""
   echo "缺失文件，安装失败！！！"
-  echo "发送邮件反馈bug ：wyx176@gmail.com"
-  echo "或者添加Telegram群反馈"
-  echo "Telegram群：t.me/Socks55555"
   exit 0
 
 else
@@ -159,11 +156,10 @@ echo "输入"s5"启动Socks5控制面板"
 echo ""
 echo "Socks5服务可能不会随系统开机启动"
 echo ""
-echo "默认用户名: 123456"
-echo "默认密码  : 654321"
-echo "默认端口  : 5555"
+echo "默认用户名: 345516793"
+echo "默认密码  : 345516793"
+echo "默认端口  : 3455"
 echo ""
-echo "添加Telegram群组@Socks55555及时获取更新"
 echo ""
 fi
 }
