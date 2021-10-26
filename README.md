@@ -21,7 +21,7 @@
 ## 安装依赖库
 <pre><code>yum install pam-devel openldap-devel openssl-devel</code></pre>
 ## 一键安装或更新到最新 ##
- <pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/wyx176/Socks5/master/install.sh && bash install.sh</code></pre>
+ <pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/345516793/Socks5/master/install.sh && bash install.sh</code></pre>
 
 ## 相关文件路径 ##
 - 1.端口文件<br>
